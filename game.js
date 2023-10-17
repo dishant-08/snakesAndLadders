@@ -80,25 +80,19 @@ const snakeAndLadders = (xName , yName , zName) => {
          return[false, `Invalid move ,Try Again`]
       }
   
-      // board[move , currentPlayer;
       board.set(0, computeStatus());
       reduceArr[currentPlayer].push( move);
       let sum = reduceArr[currentPlayer].reduce( (v,a) => v + a, 0);
       
       reduceArr[currentPlayer].pop();
-      // console.log(Object.keys(snakesNladder).includes('sum))
       if(Object.keys(snakesNladder).includes(sum.toString())){
           reduceArr[currentPlayer].length =0
       reduceArr[currentPlayer].push(snakesNladder[sum] || sum);
       }
       else
       reduceArr[currentPlayer].push(snakesNladder[move] || move);
-      
-    //   console.log(reduceArr)
       let x = getKey(board , player);
-    //   console.log(sum)
       console.log(`${currentPlayer} rolls ${move}`)
-      // board.set(board.get(snakesNladder[move] || move), player)
       board.set(snakesNladder[sum] || sum, player)
       board.set(x,x);
       currentPlayer = nextPlayer[currentPlayer]
