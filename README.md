@@ -25,7 +25,7 @@
 ## Game Logic
 
 Here i have used Map data structure in snakes and ladder game. we can easily keep track of position irrespective of players moving anywhere with of help of keys in map , keys represent the positions on board .
-Picture of Output of Game Below![resultSnakesandLadder](https://github.com/dishant-08/snakesAndLadders/assets/60565337/efc9b97a-c77b-4714-82a2-8b7ae39071dd)
+Picture of Output of Game ![resultSnakesandLadder](https://github.com/dishant-08/snakesAndLadders/assets/60565337/efc9b97a-c77b-4714-82a2-8b7ae39071dd)
 
 
 1. Store player names and each will roll the dice . According to dice , we will get our move.
