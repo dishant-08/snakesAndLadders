@@ -1,5 +1,5 @@
 
-# Tic Tac Toe in JavaScript
+# Snake and Ladders in JavaScript
 
 ## Sequence Of Game
 1. Start the Game
